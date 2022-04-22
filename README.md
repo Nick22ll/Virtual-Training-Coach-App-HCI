@@ -59,7 +59,7 @@ When you start the app, you will see the following page:
 
 Clicking on `LET'S GET STARTED`, you will be automatically redirected to the main page of VTC, where you can choose if you want the App to analyze your exercise or if you want to see your exercise scores.<br>
 If you decide to click on `NEW EXERCISE`, VTC will guide you in the choice of the exercise: it will ask you to select the category and the corresponding exercise, as shown below:
-<p align="left"><img src=sample_images/category_choose_ex.png width="60%"></p>
+<p align="left"><img src=sample_images/category_choose_ex.png width="50%"></p>
 
 
 
