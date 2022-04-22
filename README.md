@@ -7,10 +7,10 @@ The WebApp Virtual Training Coach has been implemented to give support to those 
 ## System Requirements 
 
 ### Server side
-
-**Package** | **Version**
----|---
-Python | 3.8
+ 
+**Package** | **Version** **Package** | **Version**
+---|--- ---|---
+Python | 3.8 Python | 3.8
 ai | 1.0.1
 ai.cs | 1.0.7
 cryptography | 36.0.0
