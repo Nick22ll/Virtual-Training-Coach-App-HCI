@@ -75,7 +75,10 @@ First of all, you will find the success rate, the number of errors and the most 
 On the other side, if from the main page you click on the button `HISTORY`, the app will display your results history. That's what you see:
 <p align="center"><img src=sample_images/history.png width="45%"></p>
 
-On the top of the page, there are two dropdown buttons: the first one, with label `FILTER`, allows you to filter your results by exercise type and by date; the second one, with label `ORDER`, orders the results by exercise name, date or success rate. If you want to delete a result from the history, you can hold press on it and, clicking on the bin which will appear, a message box will ask you to confirm. 
+On the top of the page, there are two dropdown buttons: the first one, with label `FILTER`, allows you to filter your results by exercise type and by date; the second one, with label `ORDER`, orders the results by exercise name, date or success rate. If you want to delete a result from the history, you can hold press on it and, clicking on the bin which will appear, a message box will ask you to confirm. Finally, clicking on one result, you will be automatically redirected to the results page. 
+
+## Authors
+- [Niccolò Guiducci](https://github.com/Nick22ll) & [Giulia Bertazzini](https://github.com/GiuliaBertazzini) as BertaGUI.
 
 
 
