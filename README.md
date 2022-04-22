@@ -1,4 +1,5 @@
 # Virtual-Training-Coach-WebApp-HCI
+<p align="center"><img src=sample_images/app_icon.png width="20%"></p>
 A basic WebApp implementation of a Virtual Training Coach by BertaGUI.
 
 ## Why Virtual Training Coach? 
@@ -76,6 +77,8 @@ On the other side, if from the main page you click on the button `HISTORY`, the 
 <p align="center"><img src=sample_images/history.png width="45%"></p>
 
 On the top of the page, there are two dropdown buttons: the first one, with label `FILTER`, allows you to filter your results by exercise type and by date; the second one, with label `ORDER`, orders the results by exercise name, date or success rate. If you want to delete a result from the history, you can hold press on it and, clicking on the bin which will appear, a message box will ask you to confirm. Finally, clicking on one result, you will be automatically redirected to the results page. 
+
+For more details, check the [report](https://github.com/Nick22ll/Virtual-Training-Coach-App-HCI/blob/main/VTC_report.pdf)
 
 ## Authors
 - [Niccolò Guiducci](https://github.com/Nick22ll) & [Giulia Bertazzini](https://github.com/GiuliaBertazzini) as BertaGUI.
