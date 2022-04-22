@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *; object-src * data: 'unsafe-eval';">
+  <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready file:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; img-src * data: 'unsafe-inline' 'unsafe-eval'; object-src * data: 'unsafe-eval';">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="#">
+
+  <title>Exercise Results</title>
+
+
+</head>
+
+
+<body id="main_body" onload="showResults()">
+<div class="app_title">
+  <h2>VIRTUAL TRAINING COACH</h2
+  ></div>
+<div class="main_content">
+
+  <div class="p-description-div">
+    <p id="description-p"></p>
+  </div>
+
+  <div class="results_container">
+    <div id="success_bar">
+    </div>
+    <div class="errors_number_div">
+      <div class="error_box">
+        <p class="error_paragraph">Total error detected: </p>
+        <h4 id="errors_number"></h4>
+      </div>
+      <div class="error_box">
+        <p class="error_paragraph">Most wrong joint: </p>
+        <h4 id="most_common_error"></h4>
+      </div>
+
+
+    </div>
+
+
+
+    <div class="bootstrap_carousel_div">
+      <div id="frame_error_carousel" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+          <!--carousel item (img+caption) here-->
+        </div>
+        <a class="carousel-control-prev" href="#frame_error_carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#frame_error_carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
+<script src="js/fileHandler.js"></script>
+<script src="js/resultsLoader.js"></script>
+<script src="js/progressbar.js"></script>
+
+
+
+</html>

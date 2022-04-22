@@ -1,0 +1,740 @@
+*{
+    user-select: none;
+}
+
+
+#main_body {
+    background-color: #393E46;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HOMEPAGE STYLE - START */
+.home_content {
+    width: 100%;
+    overflow: auto;
+    min-height: 590px;
+    margin-top: 10%;
+}
+
+.home_image {
+    width: 90%;
+    margin: 5% auto;
+    overflow: auto;
+    justify-content: center;
+    display: flex;
+}
+
+#home_image {
+    width: 80%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+#svg-1b2f, .u-svg-content {
+    fill: #d4d4d4;
+    height: 264px;
+    width: 264px;
+    margin: 0 auto;
+}
+
+.app_description {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #FFADAD;
+    color: #ffffff;
+    text-align: center;
+    padding: 4% 4%;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    border: 2px solid #000;
+    box-shadow: -0.30rem -0.60rem 0.75rem #B87D7D inset;
+}
+
+#title {
+    margin: 4% auto;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Advent Pro', sans-serif;
+    -webkit-text-stroke: 1.5px black;
+}
+
+#p-description {
+    color: #000000;
+    font-weight: 500;
+}
+
+.button_div {
+    width: 100%;
+    margin: 45px auto 25px auto;
+}
+
+.start_button {
+    width: 90%;
+    background-color: #000000;
+    text-align: center;
+    padding: 5% 8%;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 -0.15rem 0.5rem #5E5E5E inset;
+}
+
+.start_button:visited, .start_button:link, .start_button:hover, .start_button:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    width: 100%;
+    overflow: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.footer_container {
+    width:80%;
+    margin: 2% auto;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+
+}
+
+/* HOMEPAGE STYLE - END */
+
+/* CHOOSE ACTION - START */
+
+.main_content {
+    width: 100%;
+    margin-top: 9vh;
+    height: 91vh;
+    overflow: auto;
+
+}
+
+.app_title {
+    width: 100%;
+    height: 9vh;
+    justify-content: center;
+    display: flex;
+    background-color: #FFADAD;
+    padding: 2% 2%;
+    position: fixed;
+    top: 0;
+
+}
+
+.app_title h2 {
+    margin-top: 3px;
+    color: rgb(237,244,253);
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.actions{
+    width: 100%;
+    overflow: auto;
+
+}
+
+.p-description-div {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5%;
+
+}
+
+#description-p {
+    color: #ffffff;
+}
+
+.button_pinkRect_div{
+    width: 100%;
+    overflow: auto;
+    margin: 7% auto 10% auto;
+    position: relative;
+}
+
+.big_button_pinkRect_div {
+    margin: 0 auto;
+}
+
+.pink_rectangle {
+    width: 100%;
+    height: 36%;
+    background-color: #FFADAD;
+    position: absolute;
+    top: 32%;
+    z-index: -1;
+
+}
+
+.button_3Dstyle {
+    width: 60%;
+    overflow: auto;
+    margin: 2% auto;
+    border-radius: 6px;
+    box-shadow: 0 -0.25rem 1rem grey inset;
+    border: 2px solid #000;
+    background-color: #ffffff;
+}
+
+.button3D_img_div {
+    width: 85%;
+    margin: 3% auto;
+    overflow: auto;
+}
+
+.button3D_descriptor {
+    width: 95%;
+    margin: 3% auto;
+    overflow: auto;
+}
+
+
+.big_button_img_div{
+    width: 60%;
+    margin: 5% auto 0 auto;
+    overflow: auto;
+}
+
+.big_button_descriptor{
+    width: 70%;
+    margin: 5% auto 0 auto;
+    overflow: auto;
+}
+
+.button3D_img {
+    width: 100%;
+}
+
+.button_text_style{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.big_button_text_style {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#ex_icon, #history_icon {
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 8%;
+    justify-content: center;
+    display: flex;
+
+}
+/* CHOOSE ACTION - END */
+
+/* NEW EXERCISE STYLE - START */
+
+.column {
+    width: 50%;
+    overflow: auto;
+    float: left;
+}
+
+.column_button {
+    width: 85%;
+}
+.single_column{
+    width: 100%;
+    float: none;
+}
+.single_column_button {
+    width: 42.5%;
+}
+
+/* NEW EXERCISE STYLE - END */
+
+/* HISTORY STYLE - START */
+
+#filterOrderDiv {
+    width: 100%;
+    height: 17vh;
+    padding: 5%;
+    color: #fff;
+    position: fixed;
+    overflow: auto;
+    top: 9vh;
+    background-color: #393E46;
+    z-index: 1;
+}
+
+.personalized_dropdown {
+    padding: 5px 0 5px 5px;
+    margin-left: 3%;
+    background-color: #FFADAD;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+.personalized_dropdown:visited, .personalized_dropdown:active, .personalized_dropdown:hover, .personalized_dropdown:link, .personalized_dropdown:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+#dropdown_filter_menu_div {
+    width: 78%;
+    float: left;
+    overflow: auto;
+    margin-bottom: 2%;
+
+}
+
+#dropdown_filter_menu_div label{
+    padding-top: 3%;
+    margin-right: 3.5%;
+}
+
+#dropdown_filter_menu {
+    margin-right: 3.5%;
+}
+
+#insert_date_div {
+    width: 0;
+    float: right;
+    overflow: auto;
+    display: none;
+    justify-content: center;
+}
+
+#insert_date {
+    float: left;
+}
+
+#list_ord_div{
+    width: 100%;
+    overflow: auto;
+}
+
+#workout_list_div {
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    top: 17vh;
+}
+
+#workout_list {
+    width: 100%;
+    overflow: auto;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.history_list_element {
+    width: 100%;
+    overflow: auto;
+    border-bottom: 1px solid grey;
+    color: #ffffff;
+}
+
+#workout_list li:first-child {
+    border-top: 1px solid #808080;
+}
+
+
+.internal_li_div {
+    width: 100%;
+    overflow: auto;
+    padding: 2% 0;
+}
+
+.history_icon_div {
+    width: 10%;
+    overflow: auto;
+    float: left;
+    margin: 0 4%;
+    padding: 2% 0;
+}
+
+.history_icon {
+    width: 100%;
+}
+
+.history_paragraphs_div {
+    width: 62%;
+    overflow: auto;
+    float: left;
+}
+
+.history_EX_div {
+    width: 100%;
+    overflow: auto;
+    padding: 0;
+    margin: 0 0 1% 0;
+}
+
+.history_SR_div, .bin_div {
+    width: 13%;
+    margin: 0.5% 3.5% 0 3.5%;
+    overflow: auto;
+    float: left;
+
+}
+
+.bin_div {
+    display: none;
+}
+
+.bin_icon {
+    width: 100%;
+
+}
+
+.history_DATE_div {
+    width: 100%;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.li_p_exercise {
+    float: left;
+    width: 80%;
+    overflow: auto;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    color: #FFADAD;
+    font-weight: 600;
+}
+
+.li_p_SR {
+    width:0;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.li_p_date {
+    width: 100%;
+    overflow: auto;
+    float: left;
+    padding: 0;
+    margin: 0;
+
+}
+
+.li_filename {
+    display: none;
+    width: 0;
+}
+
+.history_list_element:visited, .history_list_element:link, .history_list_element:focus, .history_list_element:hover  {
+    text-decoration: none;
+}
+.history_list_element:active {
+    background-color: #808080;
+}
+
+.li_progress_text{
+    top: 28% !important;
+    left: 21% !important;
+    position: absolute;
+}
+
+/* HISTORY STYLE - END */
+
+/* UPPER BODY, LOWER BODY, FULL BODY STYLE - START */
+
+
+/* UPPER BODY, LOWER BODY, FULL BODY STYLE - END */
+
+/* UPLOAD EXERCISE - START */
+
+.ex_name_and_info {
+    width: 100%;
+    overflow: auto;
+    margin-top: 4%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#retrieved_exercise {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    overflow: auto;
+}
+
+.info_div {
+    width: 8%;
+    margin-left: 2%;
+    overflow: auto;
+}
+
+.info_img {
+    width: 100%;
+}
+
+#exercise_video {
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+}
+
+#preview_video {
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+}
+
+.preview_button {
+    width: 70%;
+}
+
+.little_button3D_img_div {
+    width: 70%;
+}
+
+#right_button {
+    float: left;
+    margin: 0 0 0 5%;
+}
+
+#left_button {
+    float: right;
+    margin: 0 5% 0 0;
+}
+
+#preview_BPR {
+    margin: 2% auto;
+}
+#upload_container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+    justify-content: center;
+    display: flex;
+}
+
+/* The Modal (background) */
+.info_modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 18%; /* Location of the box */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    border-radius: 6px;
+}
+
+/* Modal Content */
+.info_modal_content {
+    position: relative;
+    background-color: #393E46;
+    color: white;
+    margin: auto;
+    border: 2px solid #000000;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 6px;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.info_modal_header {
+    padding: 6%;
+    background-color: #FFADAD;
+    color: black;
+    float: left;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.info_modal_header h6 {
+    float: left;
+}
+
+.info_modal_body {
+    padding: 6%;
+    width: 100%;
+    float: left;
+}
+
+#modalBody {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.info_modal_footer {
+    border-top: 2px solid black;
+    padding: 6% 6%;
+    background-color: #FFADAD;
+    color: black;
+    width: 100%;
+    overflow: auto;
+
+
+}
+
+.info_modal_footer_content_div {
+    width: 100%;
+    overflow: auto;
+
+    float: left;
+}
+
+.info_modal_footer_content {
+    width: 100%;
+    overflow: auto;
+    margin: 0 auto;
+    float: left;
+
+    font-size: 12px;
+}
+
+.target_content {
+    width: 100%;
+
+}
+
+
+/* UPLOAD EXERCISE - END */
+
+/* RESULTS _ START */
+
+.custom-carousel-item {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin: 2% auto;
+    overflow: auto;
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+
+.custom-carousel-caption {
+    background:  rgba(255, 173, 173, 0.3);
+    color: black;
+}
+
+.results_container {
+    width: 100%;
+    overflow: auto;
+
+}
+
+#success_bar {
+    width: 75%;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.progressbar-text {
+    top: 50% !important;
+    position: absolute;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.errors_number_div {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.error_box {
+    width: 40%;
+    margin:8%;
+    overflow: auto;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: #A1A1A1;
+
+}
+
+.error_paragraph {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    color: #000000;
+    margin-top: 3%;
+
+}
+
+#errors_number, #most_common_error {
+    width: 100%;
+    color: #ff0000;
+    text-align: center;
+    /*-webkit-text-stroke: 1.5px black;*/
+    font-weight: 900;
+}
+
+#errors_number {
+    font-size: 35px;
+}
+
+.x_error {
+    position: absolute;
+    width: 5%;
+}
+
+#img_container{
+    justify-content: center;
+    display: flex;
+}
+
+
+
+/* RESULTS - END */

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
+    <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready file:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="#">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>History Exercises</title>
+</head>
+<body id="main_body" onload="waitDeviceReady()">
+    <div class="app_title">
+        <h2>VIRTUAL TRAINING COACH</h2>
+    </div>
+    <div class="main_content">
+        <div id="filterOrderDiv">
+            <div id="list_filter_div">
+                <div id="dropdown_filter_menu_div">
+                    <label >Filter:  </label>
+                    <select id="dropdown_filter_menu" class="personalized_dropdown" onchange="generateHistoryList()">
+                        <option value="AllExercises">All Exercises</option>
+                        <option class="dropdown_option" value="date">Date</option>
+                        <optgroup label="Upper Body">
+                            <option value="arm-clap">Arm Clap</option>
+                            <option value="biceps-curl">Biceps Curl</option>
+                            <option value="front-raise">Front Raise</option>
+                            <option value="tricep-extension">Tricep Extension</option>
+                        </optgroup>
+                        <optgroup label="Lower Body">
+                            <option value="deadlift">Deadlift</option>
+                            <option value="double-lunge">Double Lunge</option>
+                            <option value="squat">Squat</option>
+                        </optgroup>
+                        <optgroup label="Full Body">
+                            <option value="glute-bridge">Glute Bridge</option>
+                            <option value="mountain-climber">Mountain Climber</option>
+                            <option value="plank">Plank</option>
+                            <option value="push-up">Push Up</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div id="insert_date_div">
+                    <input type="date" id="insert_date" class="personalized_dropdown" onchange="readResultsHistoryFromDate()">
+                </div>
+            </div>
+            <div id="list_ord_div">
+                <label>Order:  </label>
+                <select id="dropdown_ord_menu"  class="personalized_dropdown"  onchange="updateHistoryList()">
+                    <option value="exercise">Exercise</option>
+                    <option value="date">Date</option>
+                    <option value="success_rate">Success Rate</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="workout_list_div">
+            <ul id="workout_list">
+
+
+            </ul>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
+<script src="js/long-press-event.min.js"></script>
+<script src="js/fileHandler.js"></script>
+<script src="js/progressbar.js"></script>
+<script src="js/HistoryFunctions.js"></script>
+<script src="js/resultsLoader.js"></script>
+
+
+</html>

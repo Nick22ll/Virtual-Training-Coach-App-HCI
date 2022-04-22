@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *; media-src cdvfile: file: ">
+    <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready file:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; media-src cdvfile: file:">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="#">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <title>Upload Exercise</title>
+</head>
+<body id="main_body" onload="getExerciseName()">
+<div class="app_title">
+    <h2>VIRTUAL TRAINING COACH</h2>
+</div>
+    <div class="main_content">
+        <div class="actions">
+
+            <!-- The Modal -->
+            <div id="infoModalDiv" class="info_modal">
+
+                <!-- Modal content -->
+                <div class="info_modal_content">
+                    <div class="info_modal_header">
+                        <h6 id="modalHeader"></h6>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="info_modal_body">
+                        <p id="modalBody"></p>
+                    </div>
+                    <div class="info_modal_footer">
+                        <div class="info_modal_footer_content_div">
+                            <p id="difficulty_value" class="info_modal_footer_content"><b>Difficulty: </b></p>
+                            <p id="impact_value" class="info_modal_footer_content"><b>Impact Level: </b></p>
+                        </div>
+                        <div class="info_modal_footer_content_div">
+                            <p id="target_body_value" class="info_modal_footer_content target_content"><b>Target Body Parts: </b></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="ex_name_and_info">
+                <p id="retrieved_exercise"></p>
+                <div class="info_div">
+                    <img class="info_img" src="img/info.png" onclick="getExerciseInfo()"/></div>
+                </div>
+
+
+            <div id="video_placeholder" style="width: 320px; height: 240px;"></div>
+
+            <div class="p-description-div">
+                <p id="description-p">Record a video or select it from your gallery:  </p>
+            </div>
+            <div id="preview_BPR" class="button_pinkRect_div">
+                <div class="pink_rectangle"></div>
+                <div class="column">
+                    <div id="left_button" class="preview_button button_3Dstyle" onclick="recordVideo()">
+                        <div class="little_button3D_img_div button3D_img_div">
+                            <img class="button3D_img" src="img/recordVideo.png">
+                        </div>
+                        <div class="button3D_descriptor">
+                            <p class="button_text_style">RECORD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div id="right_button" class="preview_button button_3Dstyle" onclick="loadVideo()">
+                        <div class="little_button3D_img_div  button3D_img_div">
+                            <img class="button3D_img" src="img/uploadVideo.png" >
+                        </div>
+                        <div class="button3D_descriptor">
+                            <p class="button_text_style">LOAD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
+<script src="js/uploadExercise.js"></script>
+<script src="js/clientVTC.js"></script>
+<script src="js/fileHandler.js"></script>
+<script src="js/resultsLoader.js"></script>
+</html>

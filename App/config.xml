@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.virtual_training_coach.BertaGUI" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Virtual Training Coach</name>
+    <description>A Basilar University Project</description>
+    <author>
+        BertaGUI Team
+    </author>
+    <content src="homepage.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <access origin="*" />
+    <access origin="file:///*" />
+    <access origin="cdvfile://*" />
+    <access origin="content:///*" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <preference name="AndroidInsecureFileModeEnabled" value="true" />
+
+</widget>
+

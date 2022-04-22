@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
+    <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready file:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="#">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>New Exercise</title>
+</head>
+<body id="main_body">
+<div class="app_title">
+    <h2>VIRTUAL TRAINING COACH</h2>
+</div>
+    <div class="main_content">
+
+        <div class="actions">
+            <div class="p-description-div"  style="margin-top: 5%;">
+                <p id="description-p">Select a exercises category from the list below: </p>
+            </div>
+            <div class="button_pinkRect_div">
+                <div class="pink_rectangle"></div>
+                <div class="column">
+                    <div class="column_button button_3Dstyle" onclick="toUpperExercise()">
+                       <div class="button3D_img_div">
+                           <img class="button3D_img" src="img/upperBody.png">
+                       </div>
+                        <div class="button3D_descriptor">
+                            <p class="button_text_style">UPPER BODY</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column_button button_3Dstyle" onclick="toLowerExercise()">
+                        <div class="button3D_img_div">
+                            <img class="button3D_img" src="img/lowerBody.png">
+                        </div>
+                        <div class="button3D_descriptor">
+                            <p class="button_text_style">LOWER BODY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button_pinkRect_div">
+                <div class="pink_rectangle"></div>
+                <div class="single_column column">
+                    <div class="single_column_button button_3Dstyle" onclick="toFullExercise()">
+                        <div class="button3D_img_div">
+                            <img class="button3D_img" src="img/fullBody.png">
+                        </div>
+                        <div class="button3D_descriptor">
+                            <p class="button_text_style">FULL BODY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+</html>
