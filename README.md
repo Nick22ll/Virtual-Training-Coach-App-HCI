@@ -59,7 +59,24 @@ When you start the app, you will see the following page:
 
 Clicking on `LET'S GET STARTED`, you will be automatically redirected to the main page of VTC, where you can choose if you want the App to analyze your exercise or if you want to see your exercise scores.<br>
 If you decide to click on `NEW EXERCISE`, VTC will guide you in the choice of the exercise: it will ask you to select the category and the corresponding exercise, as shown below:
-<p align="left"><img src=sample_images/category_choose_ex.png width="50%"></p>
+<p align="left"><img src=sample_images/category_choose_ex.png width="45%"></p>
+
+For example, if you've selected a `FRONT RAISE` exercise, that's what you will see:
+<p align="left"><img src=sample_images/front_raise.png width="45%"></p>
+
+In the center of the page, there is a video tutorial of the training doing the corresponding exercise. If you click on the info button next to the exercise name, it will be shown a popup containg some information about the exercise (how to do it, difficulty, impact level, target body parts). <br>
+After the video, there are two buttons: if you click on `RECORD`, you will be able to record a video of you doing the exercise directly from the app; instead, if you click on `LOAD`, you can select a video from your phone gallery. <br>
+Independently from your choice, VTC will show you the results of the analysis:
+
+<p align="left"><img src=sample_images/results_and_errorframe.png width="45%"></p>
+
+First of all, you will find the success rate, the number of errors and the most wrong joint during the exercise execution. Scrolling down, you will see the images taken from your video where the app find some errors (which are marked with a colored "X"). 
+
+On the other side, if from the main page you click on the button `HISTORY`, the app will display your results history. That's what you see:
+<p align="left"><img src=sample_images/history.png width="45%"></p>
+
+On the top of the page, there are two dropdown buttons: the first one, with label `FILTER`, allows you to filter your results by exercise type and by date; the second one, with label `ORDER`, orders the results by exercise name, date or success rate. If you want to delete a result from the history, you can hold press on it and, clicking on the bin which will appear, a message box will ask you to confirm. 
+
 
 
 
