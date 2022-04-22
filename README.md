@@ -39,7 +39,7 @@ cordova-plugin-progressdialog | ^2.0.2
 
 For the npm modules required, check [here](https://github.com/Nick22ll/Virtual-Training-Coach-App-HCI/blob/main/App/package-lock.json). <br>
 
-To work properly, VTC requires some resource files (trainer video and other files); if you want to download all the files, you can do it [here]().
+To work properly, VTC requires some resource files (trainer video and other files); if you want to download all the files, you can do it [here](https://drive.google.com/file/d/1Qx_FE5WaXm0FS4aRXVI6bmg0wx46cz6M/view?usp=sharing).
 
 ## Functionalities
 VTC allows you to upload a video where you're doing a fitness exercise and check if you're doing it correctly. <br>
