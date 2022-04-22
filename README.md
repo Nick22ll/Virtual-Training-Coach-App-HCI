@@ -55,7 +55,7 @@ You can:
 
 ## GUI
 When you start the app, you will see the following page:
-<p align="center"><img src=sample_images/homepage.png width="60%"></p>
+<p align="center"><img src=sample_images/homepage.png width="20%"></p>
 
 
 
