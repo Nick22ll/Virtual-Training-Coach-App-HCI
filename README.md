@@ -44,18 +44,18 @@ To work properly, VTC requires some resource files (trainer video and other file
 ## Functionalities
 VTC allows you to upload a video where you're doing a fitness exercise and check if you're doing it correctly. <br>
 You can:
-- upload a video recorded directly from the app;
-- upload a video from your phone gallery;
-- keep track of your progress thanks to a history;
-- filter and order results in the history;
-- delete results from the history;
-- read informations about the exercises;
-- see a tutorial of a trainer doing the exercise you've chosen;
-- visualize errors with marked images.
+- upload a video recorded directly from the app
+- upload a video from your phone gallery
+- keep track of your progress thanks to a history
+- filter and order results in the history
+- delete results from the history
+- read informations about the exercises
+- see a tutorial of a trainer doing the exercise you've chosen
+- visualize errors with marked images
 
 ## GUI
 When you start the app, you will see the following page:
-<p>
+<p align="center"><img src=sample_images/homepage.png width="60%"></p>
 
 
 
